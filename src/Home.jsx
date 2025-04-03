@@ -17,7 +17,7 @@ const Home = () => {
           Passionate Software Engineer with a focus on Web development,
           dedicated to crafting elegant and user-friendly Web applications.
         </p>
-        <a className="border border-white py-[12px] px-[50px] rounded-[30px] hover:bg-white hover:text-black transition-all hover:scale-110 max-r900:text-[15px] max-r900:px-[40px]" href="#contact">Contact Me</a>
+        <a className="border border-white mt-[30px] py-[12px] px-[50px] rounded-[30px] hover:bg-white hover:text-black transition-all hover:scale-110 max-r900:text-[15px] max-r900:px-[40px]" href="#contact">Contact Me</a>
       </div>
     </div>
   );
