@@ -10,7 +10,7 @@ const Home = () => {
           alt=""
         />
         <div className="flex flex-col items-center text-[48px] font-bold max-r900:text-[40px] max-r600:text-[38px]">
-          <h1 className="leading-[44px] max-r900:leading-[38px] max-r600:leading-[36px]">Qadamboy</h1>
+          <h1 className="leading-[44px] max-r900:leading-[38px] max-r600:leading-[36px]">Qadamboyd</h1>
           <h1 className="leading-[44px] max-r900:leading-[38px] max-r600:leading-[36px]">Xudayberganov</h1>
         </div>
         <p className="text-[20px] text-center max-w-[600px] max-r900:text-[18px] max-r600:text-[16px] max-r600:max-w-[500px]">
