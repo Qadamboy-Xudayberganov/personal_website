@@ -7,18 +7,20 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <div className="bg-black overflow-y-hidden">
-      <span id="main">
-        <Header />
-      </span>
-      <Home />
-      <span id="aboutMe" className="transition-all">
-        <AboutMe />
-      </span>
-      <Experience />
-      <Projects />
-      <span id="contact">
-        <Contact />
+    <div className="bg-black">
+      <Header />
+      <span id="main" className="flex flex-col items-center">
+        <Home />
+        <span
+          id="aboutMe"
+        >
+          <AboutMe />
+        </span>
+        <Experience />
+        <Projects />
+        <span id="contact">
+          <Contact />
+        </span>
       </span>
     </div>
   );
