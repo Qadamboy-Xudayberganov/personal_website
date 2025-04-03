@@ -31,12 +31,12 @@ const Experience = () => {
           equipped me with the skills to create fast, scalable, and dynamic web
           pages with excellent user experiences.
         </p>
-        <div className="flex full justify-start gap-[10px]">
+        {/* <div className="flex full justify-start gap-[10px]">
           <CodingLanguage title="React Native" />
           <CodingLanguage title="Java Script" />
           <CodingLanguage title="React" />
           <CodingLanguage title="Typescript" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

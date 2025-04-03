@@ -7,21 +7,19 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-black flex flex-col items-center">
       <Header />
-      <span id="main" className="flex flex-col items-center">
+      <div id="main" className="flex flex-col items-center">
         <Home />
-        <span
-          id="aboutMe"
-        >
+        <span id="aboutMe">
           <AboutMe />
         </span>
         <Experience />
         <Projects />
         <span id="contact">
-          <Contact />
+          {/* <Contact /> */}
         </span>
-      </span>
+      </div>
     </div>
   );
 }
