@@ -17,7 +17,7 @@ function App() {
         <Experience />
         <Projects />
         <span id="contact">
-          {/* <Contact /> */}
+          <Contact />
         </span>
       </div>
     </div>

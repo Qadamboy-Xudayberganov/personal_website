@@ -9,7 +9,7 @@ const Home = () => {
           src={main}
           alt=""
         />
-        <div className="flex flex-col items-center text-[48px] font-bold max-r900:text-[40px] max-r600:text-[36px]">
+        <div className="flex flex-col items-center text-[48px] font-bold max-r900:text-[40px] max-r600:text-[36px] max-r450:text-[34px]">
           <h1 className="leading-[44px] max-r900:leading-[38px] max-r600:leading-[36px]">Qadamboy</h1>
           <h1 className="leading-[44px] max-r900:leading-[38px] max-r600:leading-[36px]">Xudayberganov</h1>
         </div>
