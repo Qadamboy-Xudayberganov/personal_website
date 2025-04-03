@@ -2,7 +2,7 @@ import main from "./assets/main.svg";
 
 const Home = () => {
   return (
-    <div className="text-white max-w-[700px] pt-[150px] mx-[30px] flex flex-col items-center relative z-1 max-r900:mx-[20px]">
+    <div className="text-white max-w-[700px] pt-[150px] mx-[30px] flex flex-col items-center max-r900:mx-[20px]">
       <div className="flex flex-col items-center gap-[36px] max-r900:gap-[30px] max-r600:gap-[25px]">
         <img
           className="w-[200px] bg-[#1a1a1a] rounded-[50%] max-r900:w-[180px] max-r600:w-[160px]"

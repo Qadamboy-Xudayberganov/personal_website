@@ -2,7 +2,7 @@ import logo from "./assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="bg-black m-auto h-20 flex items-center justify-between fixed w-full z-2 max-r900:h-16">
+    <header className="bg-black m-auto h-20 flex items-center justify-between fixed w-full z-1 max-r900:h-16">
       <a
         className="mx-[100px] max-r900:mx-[40px] max-r600:mx-[20px] max-r450:mx-[15px]"
         href="#main"

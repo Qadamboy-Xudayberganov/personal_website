@@ -5,7 +5,7 @@ import telegram from "./assets/telegram.png";
 
 const Contact = () => {
   return (
-    <div className="text-white max-w-[700px] m-auto pb-[100px] flex flex-col items-center gap-[50px] relative z-1">
+    <div className="text-white max-w-[700px] m-auto pb-[100px] flex flex-col items-center gap-[50px]">
       <h1 className="font-bold text-[48px] bg-gradient-to-r from-[#9C83FF] to-[#FF9051] bg-clip-text text-transparent">
         CONTACT
       </h1>
