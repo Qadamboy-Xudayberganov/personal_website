@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-r900: 900px;
+  --breakpoint-r600: 600px;
+  --breakpoint-r450: 450px;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
