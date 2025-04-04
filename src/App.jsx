@@ -7,13 +7,13 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 
 function App() {
-  const [views, setViews] = useState(0);
+  // const [views, setViews] = useState(0);
 
-  useEffect(() => {
-    fetch("https://api.countapi.xyz/hit/your-website-name.com/visits")
-      .then((res) => res.json())
-      .then((data) => setViews(data.value));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://api.countapi.xyz/hit/your-website-name.com/visits")
+  //     .then((res) => res.json())
+  //     .then((data) => setViews(data.value));
+  // }, []);
 
   return (
     <div className="bg-black flex flex-col items-center">
@@ -28,7 +28,7 @@ function App() {
         <span id="contact">
           <Contact />
         </span>
-      <p className="text-white w-full text-start px-[30px] py-[20px] max-r600:px-[20px]">Views: {views}</p>
+{/*       <p className="text-white w-full text-start px-[30px] py-[20px] max-r600:px-[20px]">Views: {views}</p> */}
       </div>
     </div>
   );
