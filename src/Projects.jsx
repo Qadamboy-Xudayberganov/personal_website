@@ -9,10 +9,14 @@ const Projects = () => {
         PROJECTS
       </h1>
       <div className="flex flex-col gap-5 max-r450:gap-15">
-        <Project link={""} img={logo1} title={"Personal Website"} text={"I used React and Tilwind css to create this website and it took me all about 3 days to build it from scratch"}/>
-        <Project link={""} img={logo1} title={"Personal Website"} text={"I used React and Tilwind css to create this website and it took me all about 3 days to build it from scratch"}/>
-        <Project link={""} img={logo1} title={"Personal Website"} text={"I used React and Tilwind css to create this website and it took me all about 3 days to build it from scratch"}/>
-        <Project link={""} img={logo1} title={"Personal Website"} text={"I used React and Tilwind css to create this website and it took me all about 3 days to build it from scratch"}/>
+        <Project
+          link={""}
+          img={logo1}
+          title={"Personal Website"}
+          text={
+            "I used React and Tilwind css to create this website and it took me all about 3 days to build it from scratch"
+          }
+        />
       </div>
     </div>
   );

@@ -1,6 +1,15 @@
 import logo from "./assets/logo.png";
+import { useTranslation, Trans } from "react-i18next";
+
+const lngs = {
+  en: { nativeName: "English" },
+  uz: { nativeName: "Uzbek" },
+  ru: { nativeName: "Russian" },
+};
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <header className="bg-black m-auto h-20 flex items-center justify-between fixed w-full z-1 max-r900:h-16">
       <a
@@ -18,13 +27,13 @@ const Header = () => {
           className="text-white px-[25px] py-[8px] flex items-center justify-center border-white border rounded-[8px] hover:bg-white hover:text-black transition-all hover:scale-105 max-r900:px-[20px] max-r900:text-[15px] max-r900:py-[6px] max-r600:px-[16px] max-r600:text-[13px] max-r600:rounded-[6px] max-r450:px-[12px]"
           href="#aboutMe"
         >
-          About me
+          {t("Header.aboutMe")}
         </a>
         <a
           className="bg-white px-[25px] py-[8px] flex items-center justify-center rounded-[8px] border-white border hover:bg-transparent hover:text-white transition-all hover:scale-105 max-r900:px-[20px] max-r900:text-[15px] max-r900:py-[6px] max-r600:px-[16px] max-r600:text-[13px] max-r600:rounded-[6px] max-r450:px-[12px]"
           href="#contact"
         >
-          Contact
+      {t("Header.contact")}
         </a>
       </div>
     </header>

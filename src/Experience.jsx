@@ -9,9 +9,7 @@ const Experience = () => {
       </h1>
 
       <div className="w-full flex items-center justify-between max-r450:justify-start max-r450:flex-col max-r450:items-start max-r450:gap-[5px]">
-        <h2 className="text-[28px] leading-[28px]">
-          Web Developer
-        </h2>
+        <h2 className="text-[28px] leading-[28px]">Web Developer</h2>
         <h3 className="text-[14px] leading-[16px] mt-[8px] flex gap-1 max-r600:mt-[6px] max-r450:mt-0">
           <span className="hidden max-r450:flex">(</span>
           AUGUST 2023 <span className="text-[20px] mx-1">-</span> PRESENT
@@ -21,17 +19,17 @@ const Experience = () => {
 
       <div className="text-center text-[18px] flex flex-col gap-[30px] text-[E1E1E1] max-r600:text-[15px]">
         <p className="text-start text-[15px]">
-          Currently, I am working on WebHR Mobile Application, WebHR is a Cloud
-          based Social HR Software for SMEs by Verge Systems Inc. Additionally,
-          my proficiency in React.js has equipped me with the skills to create
-          fast, scalable, and dynamic web pages with excellent user experiences.
+          Over the past few years, I’ve worked on diverse web development
+          projects ranging from personal portfolios and landing pages to fully
+          responsive business websites. This hands-on experience has sharpened
+          my skills in front-end development, ensuring clean code, fast load
+          times, and pixel-perfect design.
         </p>
         <p className="text-start text-[15px]">
-          My experience with React Native has allowed me to develop
-          cross-platform mobile applications that run seamlessly on both iOS and
-          Android platforms. Additionally, my proficiency in React.js has
-          equipped me with the skills to create fast, scalable, and dynamic web
-          pages with excellent user experiences.
+          I’ve collaborated with designers, marketers, and clients to turn
+          concepts into functional, SEO-optimized websites. Every project has
+          strengthened my ability to adapt, solve problems, and deliver
+          solutions that align with both user needs and business goals.
         </p>
         <div className="flex full gap-[10px] max-r600:flex-col">
           <span className="flex gap-[10px]">

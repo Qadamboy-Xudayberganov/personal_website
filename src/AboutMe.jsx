@@ -6,14 +6,17 @@ const AboutMe = () => {
       </h1>
       <div className="text-[18px] flex flex-col gap-[30px] text-[E1E1E1] max-r600:text-[15px]">
         <p>
-          As a passionate software engineer, I thrive on the intricate dance
-          between logic and creativity. Currently immersed in the dynamic world
-          of WebHR, my expertise centers around React Native, where I seamlessly
-          blend technology with innovation.
+          As a passionate web developer, I specialize in building clean,
+          responsive, and user-friendly websites using modern technologies like
+          HTML, CSS, JavaScript, React, and Tailwind CSS. With a strong focus on
+          performance and design, I turn ideas into interactive digital
+          experiences that work flawlessly on all devices.
         </p>
         <p>
-          With a fervor for crafting elegant solutions, I navigate the
-          ever-evolving landscape of software development.
+          I’m committed to delivering results that not only meet your needs but
+          also exceed your expectations. Whether you're a startup, small
+          business, or entrepreneur, I can help bring your online vision to life
+          — quickly, efficiently, and with a personal touch.
         </p>
       </div>
     </div>
