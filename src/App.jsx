@@ -28,8 +28,8 @@ function App() {
         <span id="contact">
           <Contact />
         </span>
+      <p className="text-white w-full text-start px-[30px] py-[20px] max-r600:px-[20px]">Views: {views}</p>
       </div>
-      <p className="text-white w-[700px] flex justify-start">Views: {views}</p>
     </div>
   );
 }
